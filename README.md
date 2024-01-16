@@ -1,3 +1,3 @@
 # Steve-s-Car-Showroom-
-![] (steveshowroom.png)
+![] (steveshowroom.jpg)
 ---
