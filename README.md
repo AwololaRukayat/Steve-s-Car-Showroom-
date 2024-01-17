@@ -1,6 +1,6 @@
 # Steve-s-Car-Showroom
 
-![](steveshowrrom.jpg)
+![](steveshow_r0om.jpg)
 --
 ## Introduction 
 This is a SQL challenge on **steve's car showroom**.My task is to generate valuable insights for a top-end car showroom.
@@ -25,12 +25,10 @@ INNER JOIN, ON,AND, WHERE, GROUP BY, ORDER BY, HAVING
 ## Schema
 
 ## Analysis
-1. SELECT s.purchase_date,c.car_id,c.make,c.type,c.style,c.cost_$
-   FROM cars c
-   INNER JOIN sales s
-   ON s.car_id = c.car_id
-   WHERE YEAR (S.purchase_date) = 2022;
-   ![](Question_1.jpg)
+1.  What is the details of all cars purchased in the year 2022 ?
+     Query                        Answer
+    :-------------------------:|:-------------------                      
+      ![](query_1.jpg)      |   ![](Question_1.jpg)
 
 2.SELECT s.salesman_id, sp.name, COUNT(*) AS total_cars_sold
   FROM sales s
