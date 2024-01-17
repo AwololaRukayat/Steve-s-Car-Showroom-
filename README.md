@@ -1,6 +1,6 @@
 # Steve-s-Car-Showroom
 
-![](steveshow_r0om.jpg)
+![](steveshow_room.jpg)
 --
 ## Introduction 
 This is a SQL challenge on **steve's car showroom**.My task is to generate valuable insights for a top-end car showroom.
@@ -26,8 +26,8 @@ INNER JOIN, ON,AND, WHERE, GROUP BY, ORDER BY, HAVING
 
 ## Analysis
 1.  What is the details of all cars purchased in the year 2022 ?
-     Query                        Answer
-    :-------------------------:|:-------------------                      
+     Query                  |        Answer
+    :----------------------:|:-------------------                      
       ![](query_1.jpg)      |   ![](Question_1.jpg)
 
 2.SELECT s.salesman_id, sp.name, COUNT(*) AS total_cars_sold
